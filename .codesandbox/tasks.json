@@ -1,0 +1,68 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "command": "yarn install",
+      "name": "Installing Dependencies"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "prepare": {
+      "name": "prepare",
+      "command": "yarn prepare",
+      "runAtStart": false
+    },
+    "dev": {
+      "name": "dev",
+      "command": "yarn dev",
+      "runAtStart": true
+    },
+    "build": {
+      "name": "build",
+      "command": "yarn build",
+      "runAtStart": false
+    },
+    "build:ci": {
+      "name": "build:ci",
+      "command": "yarn build:ci",
+      "runAtStart": false
+    },
+    "start:ci": {
+      "name": "start:ci",
+      "command": "yarn start:ci",
+      "runAtStart": false
+    },
+    "prelint": {
+      "name": "prelint",
+      "command": "yarn prelint",
+      "runAtStart": false
+    },
+    "lint": {
+      "name": "lint",
+      "command": "yarn lint",
+      "runAtStart": false
+    },
+    "format": {
+      "name": "format",
+      "command": "yarn format",
+      "runAtStart": false
+    },
+    "preview": {
+      "name": "preview",
+      "command": "yarn preview",
+      "runAtStart": false
+    },
+    "storybook": {
+      "name": "storybook",
+      "command": "yarn storybook",
+      "runAtStart": false
+    },
+    "build-storybook": {
+      "name": "build-storybook",
+      "command": "yarn build-storybook",
+      "runAtStart": false
+    }
+  }
+}
